@@ -158,8 +158,8 @@
 							<section id="four">
 								<div class="container">
 									<h3>Contact Me</h3>
-									<p>Reach out if you're interesting in collaborating.</p>
-									<form method="post" action="https://formspree.io/f/xdojkrgr">
+									<!-- <p>Get in touch if you want to </p> -->
+									<!-- <form method="post" action="">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -172,8 +172,29 @@
 												</ul>
 											</div>
 										</div>
+									</form> -->
+									<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdojkrgr" method="post">
+										<fieldset id="fs-frm-inputs">
+											<div>
+											<div class="row gtr-uniform">
+												<!-- <label for="full-name">Full Name</label> -->
+												<div class="col-6 col-12-small"><input type="text" name="name" id="full-name" placeholder="Name" required=""></div>
+												<!-- <label for="email-address">Email Address</label> -->
+												<div class="col-6 col-12-small"><input type="email" name="_replyto" id="email-address" placeholder="Email" required=""></div>
+												<!-- <label for="message">Message</label> -->
+												<div class="col-12"><textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea></div>
+												<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+											</div>
+											</div>
+										</fieldset>
+										<div class="row-buttons">
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send message" /></li>
+												</ul>
+											</div>
+										</div>
 									</form>
-								</div>
 							</section>
 
 						<!-- Five -->

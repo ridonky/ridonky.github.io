@@ -239,6 +239,10 @@ input, select, textarea {
 
 /* Row */
 
+	.row-buttons {
+		margin-top:1.5em;
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
